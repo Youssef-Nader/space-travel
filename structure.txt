@@ -1,0 +1,17 @@
+Project Structure:
+
+/Space-Travel
+|
+|
+|_______ index.html
+|
+|
+|
+|_______ style.css
+|
+|
+|
+|_______ script.js
+|
+|
+|_______ assets

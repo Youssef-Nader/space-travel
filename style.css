@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(assets/space\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+.container {
+    background-color: #021526c7;
+    color: white;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.699);
+}
+.container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+form {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input,select,textarea {
+    background-color: #ffffff9c;
+    width: 80%;
+    margin: 0 auto 15px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    transition: .2s;
+}
+input:focus,
+select:focus,
+textarea:focus {
+    width: 90%;
+}
+.experience {
+    margin-top: 10px;
+}
+.radio {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 10px auto 0 auto;
+}
+.radio label {
+    cursor: pointer;
+}
+input[type="radio"] {
+    cursor: pointer;
+    accent-color: black;
+}
+.textarea {
+    margin-top: 15px;
+}
+input[type="submit"],
+input[type="reset"] {
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #538392;
+    color: white;
+    transition: .2s;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #ffffff9c;
+    color: black;
+    font-size: 18px;
+}
