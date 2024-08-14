@@ -21,13 +21,14 @@ form.addEventListener('submit',function(event) {
     console.log(textarea);
 });
 function sendToWhatsapp(){
-    let number= "+201284196564";
-    let name1=document.getElementById('name').value;
-    let email1=document.getElementById('email').value;
-    let nationality1=document.getElementById('Nationality').value;
-    let major=document.getElementById('Major').value;
-    let selected= document.querySelector("input[name='Experience']:checked").value;
-    let textarea=document.getElementById('textarea').value;
+    let number= "+20----------";     //replace -- to correct number you want to submit data to it
+    //return value of data
+    name1=document.getElementById('name').value;
+    email1=document.getElementById('email').value;
+    nationality1=document.getElementById('Nationality').value;
+    major=document.getElementById('Major').value;
+    selected= document.querySelector("input[name='Experience']:checked").value;
+    textarea=document.getElementById('textarea').value;
     //get url to send data through it
     let url="https://wa.me/" + number + "?text="
     +"Name:  "+name1+"%0a"
@@ -37,5 +38,5 @@ function sendToWhatsapp(){
     +"Experience Lvl:  "+selected+"%0a"
     +"Why you want to explore the space:  "+textarea+"%0a";
     //go to this url
-    window.open(url,'_blank').focus();
+    window.open(url,'_blank');
 }

@@ -24,12 +24,13 @@ body {
     box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.699);
 }
 .container h1 {
+    color: rgba(255, 255, 255, 0.705);
     text-align: center;
     margin-bottom: 40px;
     font-style: italic;
 }
 form {
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
 }
@@ -38,7 +39,7 @@ form label {
     font-weight: bold;
 }
 input,select,textarea {
-    background-color: #ffffff9c;
+    background-color: rgba(255, 255, 255, 0.822);
     width: 80%;
     margin: 0 auto 15px auto;
     padding: 10px;
